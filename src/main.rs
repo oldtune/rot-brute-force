@@ -5,7 +5,7 @@ use structopt::StructOpt;
 
 fn main() {
     let cli = Cli::from_args();
-    for i in 1..14 {
+    for i in 1..26 {
         println!("{}", rot(i, &cli.input));
     }
 }
